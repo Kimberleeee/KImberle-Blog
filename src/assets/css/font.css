@@ -1,0 +1,19 @@
+@font-face{
+    font-family: calligraphy;
+    src: url(../font/HomeWinter-ALxvg.otf);
+}
+
+@font-face{
+    font-family: FastHand;
+    src: url(../font/FastHand-lgBMV.ttf);
+}
+
+@font-face{
+    font-family: KageFont;
+    src: url(../font/KageFreebiesBlack-X3rVa.otf);
+}
+
+@font-face{
+    font-family: Twisted;
+    src: url(../font/TwistedZigzagRegular-lgLLd.ttf);
+}
