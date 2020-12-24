@@ -1,5 +1,7 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router';
-import Home from '../views/Home.vue';
+import Login from '@/views/login/Login.vue';
+import Home from '@/views/Home.vue';
+import Manage from '@/views/manage/manage.vue';
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -15,6 +17,16 @@ const routes: Array<RouteRecordRaw> = [
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue'),
   },
+  {
+    path: '/login',
+    name: 'Login',
+    component: Login,
+  },
+  {
+    path: '/manage',
+    name: 'Manage',
+    component: Manage,
+  }
 ];
 
 const router = createRouter({
