@@ -5,6 +5,10 @@
 </template>
 
 <style>
+* {
+  outline: 1px solid #999;
+}
+
 html,
 body {
   margin: 0;
